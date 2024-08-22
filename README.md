@@ -24,4 +24,4 @@ The UI window will present the user with two radio buttons:
 Select one of these options and click on the `Print` button. All Excel files in the `filesToPrint` folder will be printed to PDF and saved into the same folder.
 
 # License
-This project is licensed under the MIT license - see the `LICENSE` file for details.
+This project is licensed under the MIT license - see the [LICENSE](LICENSE.txt)  file for details.
