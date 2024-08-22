@@ -4,7 +4,7 @@
     Shared Sub XLS_print_to_PDF()
 
         Dim fso = CreateObject("Scripting.FileSystemObject")
-        Dim objStartFolder = fso.GetAbsolutePathName(".") + "'filesToPrint\"
+        Dim objStartFolder = fso.GetAbsolutePathName(".") + "\filesToPrint\"
         Dim objFolder = fso.GetFolder(objStartFolder)
         Dim colFiles = objFolder.Files
 
@@ -29,7 +29,7 @@
     Shared Sub XLS_print_first_sheet_to_PDF()
 
         Dim fso = CreateObject("Scripting.FileSystemObject")
-        Dim objStartFolder = fso.GetAbsolutePathName(".") + "'filesToPrint\"
+        Dim objStartFolder = fso.GetAbsolutePathName(".") + "\filesToPrint\"
         Dim objFolder = fso.GetFolder(objStartFolder)
         Dim colFiles = objFolder.Files
 
